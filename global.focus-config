@@ -26,6 +26,7 @@
 # Example:
 # *.hpp *.hh *.h : cpp
 # todo.txt : todo
+*.fs *.vs *.shader : glsl
 
 
 [[settings]]
@@ -36,7 +37,7 @@ cursor_as_block:                                    true
 cursor_blink_time_in_seconds:                       5
 highlight_selection_occurrences:                    true
 highlight_line_with_cursor:                         false
-highlight_matching_brackets:                        false
+highlight_matching_brackets:                        true
 show_paste_effect:                                  true
 disable_file_open_close_animations:                 false
 double_shift_to_search_in_workspace:                false
